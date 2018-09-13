@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package dynamicprogram;
+import java.math.BigInteger;
 import java.util.Scanner;
 public class HitungFibonacci {
     private static void tampilJudul(String identitas) {
@@ -14,6 +15,17 @@ public class HitungFibonacci {
         
         String Identitas  = "Rafi Raihan F / X RPL 2 / 26";
         tampilJudul(identitas);
+        
     }
+    private static int tampilInput() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Bilangan ke-: ");
+        int n = scanner.nextInt();
+        return n;
+    }
+    int n = tampilInput();
+    
+    
     
 }
